@@ -28,6 +28,7 @@ export const Contact: React.FC = () => {
       toast.error("Failed to send email. Please try again.");
       console.log("FAILED...", error);
     }
+    (e.target as HTMLFormElement).reset();
   };
 
   return (
