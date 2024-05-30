@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Autopscale from "../public/autopscale.png";
-import Japanese from "../public/japanese.png";
-import Onix from "../public/onix.png";
+import Patientary from "../public/patientary.png";
+import Semtech from "../public/Semtech.png";
+import whizlabs from "../public/Whizlabs.png";
 import wishtender from "../public/wishtender.png";
 
 export const links = [
@@ -63,28 +63,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Auto upscale",
+    title: "Patientary",
     description:
-      "Auto Upscale - Your destination for seamless website enhancement and expansion.",
+      "Patientary MRI: Your Trusted Partner for Comprehensive MRI Services and Advanced Diagnostic Imaging.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: Autopscale,
-    lnk: "https://autoupscale.com/",
+    imageUrl: Patientary,
+    lnk: "https://patientory.com/",
   },
   {
-    title: "Liberty Japan",
+    title: "Semtech",
     description:
-      "Discover the essence of Japanese culture and lifestyle with Liberty Japan's engaging website.",
+      "Semtech: Innovating Advanced Semiconductor Solutions for a Connected World.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: Japanese,
-    lnk: "https://www.liberty-japan.co.jp/specialcontent/",
+    imageUrl: Semtech,
+    lnk: "https://www.sierrawireless.com/",
   },
   {
-    title: "Onix",
+    title: "Whizlabs",
     description:
-      "Introducing Onix: Your gateway to a seamless online experience, where innovation meets simplicity.",
+      "Whizlabs: Empowering Your Success with Leading Online Certification Training and Practice Exams.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Onix,
-    lnk: "https://onix.design/",
+    imageUrl: whizlabs,
+    lnk: "https://www.whizlabs.com/",
   },
   {
     title: "WishTender",

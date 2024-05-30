@@ -40,7 +40,7 @@ export const Contact: React.FC = () => {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto: raheelmusa397@gmail.com">
-          raheelmusa397@gmail.com
+          usama123@gmail.com
         </a>{" "}
         or through this form.
       </p>
