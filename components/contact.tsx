@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import SubmitBtn from "../components/submit-button"; // Assuming you have this component
 
-export const ContactUs: React.FC = () => {
+export const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
@@ -31,7 +31,7 @@ export const ContactUs: React.FC = () => {
   };
 
   return (
-    <div className="mb-11">
+    <div className="mb-11" id="contact">
       <ToastContainer />
       <div className="flex justify-center text-4xl font-semibold mb-8">
         Contact me

@@ -1,5 +1,5 @@
 import About from "../../components/about";
-import { ContactUs } from "../../components/contact";
+import { Contact } from "../../components/contact";
 import Experience from "../../components/experiences"
 import Footer from "../../components/footer";
 import Header from "../../components/header";
@@ -18,7 +18,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
-      <ContactUs />
+      <Contact />
       <Footer/>
     </main>
   );
